@@ -1,0 +1,22 @@
+name: iOS macOS Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build iOS app (simulator)
+        run: |
+          xcodebuild \
+            -project Blank.xcodeproj \
+            -scheme Blank \
+            -sdk iphonesimulator \
+            -destination 'platform=iOS Simulator,name=iPhone 14' \
+            build
