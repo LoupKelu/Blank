@@ -7,24 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		204C8EE41AFC1136003A7DDC /* curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204C8EDD1AFC111B003A7DDC /* curry.framework */; };
-		204C8EE51AFC1136003A7DDC /* curry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 204C8EDD1AFC111B003A7DDC /* curry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		204C8EED1AFC1144003A7DDC /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204C8ED21AFC1117003A7DDC /* pop.framework */; };
-		204C8EEE1AFC1144003A7DDC /* pop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 204C8ED21AFC1117003A7DDC /* pop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		204C8EF11AFC1144003A7DDC /* curryfire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204C8EC01AFC10E1003A7DDC /* curryfire.framework */; };
-		204C8EF21AFC1144003A7DDC /* curryfire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 204C8EC01AFC10E1003A7DDC /* curryfire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		20A6AA911A82BA0F00D0E80B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA901A82BA0F00D0E80B /* CoreGraphics.framework */; };
-		20A6AA931A82BA1400D0E80B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA921A82BA1400D0E80B /* Security.framework */; };
-		20A6AA951A82BA1B00D0E80B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA941A82BA1B00D0E80B /* SystemConfiguration.framework */; };
-		20A6AA971A82BA2100D0E80B /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA961A82BA2100D0E80B /* QuickLook.framework */; };
-		20A6AA9B1A82BA2B00D0E80B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA9A1A82BA2B00D0E80B /* CoreText.framework */; };
-		20A6AA9D1A82BA3500D0E80B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA9C1A82BA3500D0E80B /* QuartzCore.framework */; };
-		20A6AAA01A82BA4700D0E80B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA9F1A82BA4700D0E80B /* Foundation.framework */; };
-		20A6AAA21A82BA4D00D0E80B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AAA11A82BA4D00D0E80B /* UIKit.framework */; };
-		20CCB6EE1A82B3D700728BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CCB6E91A82B3D700728BA2 /* AppDelegate.swift */; };
-		20CCB6EF1A82B3D700728BA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CCB6EB1A82B3D700728BA2 /* Images.xcassets */; };
-		20CCB6F11A82B3D700728BA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CCB6ED1A82B3D700728BA2 /* ViewController.swift */; };
-		20CCB7021A82B71D00728BA2 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CCB7011A82B71D00728BA2 /* AViewController.m */; };
+        20A6AA911A82BA0F00D0E80B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA901A82BA0F00D0E80B /* CoreGraphics.framework */; };
+        20A6AA931A82BA1400D0E80B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA921A82BA1400D0E80B /* Security.framework */; };
+        20A6AA951A82BA1B00D0E80B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA941A82BA1B00D0E80B /* SystemConfiguration.framework */; };
+        20A6AA971A82BA2100D0E80B /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA961A82BA2100D0E80B /* QuickLook.framework */; };
+        20A6AA9B1A82BA2B00D0E80B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA9A1A82BA2B00D0E80B /* CoreText.framework */; };
+        20A6AA9D1A82BA3500D0E80B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA9C1A82BA3500D0E80B /* QuartzCore.framework */; };
+        20A6AAA01A82BA4700D0E80B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA9F1A82BA4700D0E80B /* Foundation.framework */; };
+        20A6AAA21A82BA4D00D0E80B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AAA11A82BA4D00D0E80B /* UIKit.framework */; };
+        20CCB6EE1A82B3D700728BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CCB6E91A82B3D700728BA2 /* AppDelegate.swift */; };
+        20CCB6EF1A82B3D700728BA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CCB6EB1A82B3D700728BA2 /* Images.xcassets */; };
+        20CCB6F11A82B3D700728BA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CCB6ED1A82B3D700728BA2 /* ViewController.swift */; };
+        20CCB7021A82B71D00728BA2 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CCB7011A82B71D00728BA2 /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,20 +144,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		204C8EE81AFC1136003A7DDC /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				204C8EEE1AFC1144003A7DDC /* pop.framework in Embed Frameworks */,
-				204C8EF21AFC1144003A7DDC /* curryfire.framework in Embed Frameworks */,
-				204C8EE51AFC1136003A7DDC /* curry.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        204C8EE81AFC1136003A7DDC /* Embed Frameworks */ = {
+            isa = PBXCopyFilesBuildPhase;
+            buildActionMask = 2147483647;
+            dstPath = "";
+            dstSubfolderSpec = 10;
+            files = (
+            );
+            name = "Embed Frameworks";
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXCopyFilesBuildPhase section */
+
 
 /* Begin PBXFileReference section */
 		204C8EB91AFC10E1003A7DDC /* curryfire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = curryfire.xcodeproj; path = Vendor/curryfire/curryfire.xcodeproj; sourceTree = "<group>"; };
@@ -192,24 +184,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20CCB6A01A828E4F00728BA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				204C8EED1AFC1144003A7DDC /* pop.framework in Frameworks */,
-				204C8EE41AFC1136003A7DDC /* curry.framework in Frameworks */,
-				20A6AAA21A82BA4D00D0E80B /* UIKit.framework in Frameworks */,
-				20A6AAA01A82BA4700D0E80B /* Foundation.framework in Frameworks */,
-				20A6AA9D1A82BA3500D0E80B /* QuartzCore.framework in Frameworks */,
-				20A6AA9B1A82BA2B00D0E80B /* CoreText.framework in Frameworks */,
-				20A6AA971A82BA2100D0E80B /* QuickLook.framework in Frameworks */,
-				20A6AA951A82BA1B00D0E80B /* SystemConfiguration.framework in Frameworks */,
-				20A6AA931A82BA1400D0E80B /* Security.framework in Frameworks */,
-				204C8EF11AFC1144003A7DDC /* curryfire.framework in Frameworks */,
-				20A6AA911A82BA0F00D0E80B /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        20A6AAA01A82BA4700D0E80B /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                20A6AAA21A82BA4D00D0E80B /* UIKit.framework in Frameworks */,
+                20A6AAA01A82BA4700D0E80B /* Foundation.framework in Frameworks */,
+                20A6AA9D1A82BA3500D0E80B /* QuartzCore.framework in Frameworks */,
+                20A6AA9B1A82BA2B00D0E80B /* CoreText.framework in Frameworks */,
+                20A6AA971A82BA2100D0E80B /* QuickLook.framework in Frameworks */,
+                20A6AA951A82BA1B00D0E80B /* SystemConfiguration.framework in Frameworks */,
+                20A6AA931A82BA1400D0E80B /* Security.framework in Frameworks */,
+                20A6AA911A82BA0F00D0E80B /* CoreGraphics.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
