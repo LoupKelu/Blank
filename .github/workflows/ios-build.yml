@@ -12,11 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build iOS app
+      - name: Archive iOS app (no device)
         run: |
           xcodebuild \
             -project Blank.xcodeproj \
             -scheme Blank \
-            -sdk iphoneos \
-            -destination 'platform=iOS,name=Any iOS Device' \
-            build
+            archive \
+            -archivePath $PWD/build/Blank.xcarchive
